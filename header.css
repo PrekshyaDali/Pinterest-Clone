@@ -7,10 +7,8 @@
   position: fixed;
   z-index: 1000;
   background-color: white;
-  width :100%;
-  top:0;
-  
-  
+  width: 100%;
+  top: 0;
 }
 
 .left-section {
@@ -43,9 +41,16 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: bold;
   position: relative;
-
+  background-color: rgb(38, 38, 38);
+  color: white;
   display: flex;
-  padding-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border: none;
+  border-radius: 35px;
+  padding: 2px;
+  justify-content: center;
+ 
 }
 
 .home-button:hover {
@@ -60,100 +65,100 @@
   padding-left: 3px;
 }
 
-.home-minimize {
-  position: absolute;
-  top: 14px;
-  right: 0px;
-  height: 8px;
-  margin-right: 10px;
-}
+
 
 .middle-section {
-
   max-width: 1500px;
-  flex:1;
+  flex: 1;
   margin-left: 3px;
-    
-
 }
-.search-div{
-    display:flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    width: 100%
-
-    
+.search-div {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.search-input{
-    flex:1;
-    height: 45px;
-    border: none;
-    border-width: 2px;
-    background-color: rgb(232, 232, 232);
-    border-radius: 25px;
-    width:0;
-    
+.search-input {
+  flex: 1;
+  height: 45px;
+  border: none;
+  border-width: 2px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 25px;
+  width: 0;
+  padding-left: 10px;
 }
 
-.search-input::placeholder{
-    padding-left: 30px;
-    font-size: 15px;
+.search-input::placeholder {
+  padding-left: 30px;
+  font-size: 15px;
 }
-.search-icon{
-    width:18px;
-    position: absolute;
-    top:15px;
-    left: 8px;
-    
+.search-icon {
+  width: 18px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
-.search-input:hover{
-    background-color:  rgb(227, 223, 223);
+.search-input:hover {
+  background-color: rgb(227, 223, 223);
 }
 
 .right-section {
-    margin-right: 20px;
-    width: 180px;
-    display: flex;
-    flex-shrink: 0;
-    justify-content: space-between;
+  margin-right: 20px;
+  width: 180px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
 
-    align-items: center;
-    padding: 10px;
-  }
-
-
-
-.notification-icon{
-   width: 20px;
-   
-
+  align-items: center;
+  padding: 10px;
 }
 
-.comment-icon{
-    width: 20px;
-  
-}
-.user-icon{
-    width: 20px;
-    
-}
-.angle-down{
-    width: 20px;
+.notification-icon {
+  width: 20px;
 }
 
+.comment-icon {
+  width: 20px;
+}
+.user-icon {
+  width: 20px;
+}
+.angle-down {
+  width: 20px;
+}
+.notification-number {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-style: solid;
+  border-radius: 12px;
+  font-size: 10px;
+  width: 23px;
+  height: 18px;
+  position: absolute;
+  border: none;
+  top: 2px;
+  right: 0;
+}
+
+.notification-hover {
+  position: relative;
+}
 /* Base styles for the elements */
 .notification-hover,
 .comment-hover,
 .user-hover,
 .angledown-hover {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Background color on hover */
@@ -161,11 +166,5 @@
 .comment-hover:hover,
 .user-hover:hover,
 .angledown-hover:hover {
-    background-color: rgba(186, 186, 186, 0.918);
+  background-color: rgba(186, 186, 186, 0.918);
 }
-
-
-
-
-
-
