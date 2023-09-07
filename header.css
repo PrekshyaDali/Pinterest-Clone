@@ -1,5 +1,5 @@
 .header {
-  height: 60px;
+  height: 75px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,7 +16,11 @@
 .left-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  margin-right: 10px;
 }
+
 .pinterest-logo-div {
   height: 50px;
   width: 50px;
@@ -26,7 +30,7 @@
   margin-right: 8px;
 }
 .pinterest-logo {
-  width: 35px;
+  width: 30px;
   margin: 8px;
 }
 .pinterest-logo-div:hover {
@@ -66,9 +70,10 @@
 
 .middle-section {
 
-  max-width: 1000px;
-  flex:1
-
+  max-width: 1500px;
+  flex:1;
+  margin-left: 3px;
+    
 
 }
 .search-div{
@@ -76,6 +81,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    width: 100%
 
     
 }
@@ -105,10 +111,61 @@
     background-color:  rgb(227, 223, 223);
 }
 
-.right-section{
-    background-color: lightpink;
-    width: 250px;
-    height: 45px;
+.right-section {
+    margin-right: 20px;
+    width: 180px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px;
+  }
+
+
+
+.notification-icon{
+   width: 20px;
+   
+
 }
+
+.comment-icon{
+    width: 20px;
+  
+}
+.user-icon{
+    width: 20px;
+    
+}
+.angle-down{
+    width: 20px;
+}
+
+/* Base styles for the elements */
+.notification-hover,
+.comment-hover,
+.user-hover,
+.angledown-hover {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Background color on hover */
+.notification-hover:hover,
+.comment-hover:hover,
+.user-hover:hover,
+.angledown-hover:hover {
+    background-color: rgba(186, 186, 186, 0.918);
+}
+
+
+
+
 
 
