@@ -1,0 +1,30 @@
+.first-row{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+   display: flex;
+   justify-content: space-between;
+   
+    
+}
+.first-div{
+    background-color: lightblue;
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top:70px;
+    
+
+    
+    
+}
+.second-div{
+    background-color: lightpink;
+    height: 250px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top:70px;
+
+}
