@@ -9,27 +9,31 @@
   background-color: white;
   width: 100%;
   top: 0;
+  padding-left: 8px;
 }
 
 .left-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 150px;
-  margin-right: 10px;
+  width: 120px;
+  margin-right: 20px;
 }
 
 .pinterest-logo-div {
-  height: 50px;
-  width: 50px;
-  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
-  margin-right: 8px;
+  margin-right: 10px;
+  justify-content: center;
 }
 .pinterest-logo {
   width: 30px;
-  margin: 8px;
+ 
+ 
+  
 }
 .pinterest-logo-div:hover {
   background-color: rgba(186, 186, 186, 0.918);
@@ -50,6 +54,7 @@
   border-radius: 35px;
   padding: 2px;
   justify-content: center;
+  align-items: center;
  
 }
 
